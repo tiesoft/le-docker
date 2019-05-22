@@ -1,4 +1,4 @@
-FROM ubuntu:saucy
+FROM ubuntu:latest
 
 RUN echo "deb http://us.archive.ubuntu.com/ubuntu/ precise main universe" >> /etc/apt/source.list
 RUN apt-get update
